@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .form-container{
+        width: 500px;
+        margin: auto;
+        background-color: gray;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .form-group{
+      display: flex;
+      margin-bottom: 15px;
+    }
+  .form-group label{
+        width: 120px;
+        font-weight: bold;
+  }
+  .form-group input
+  .form-group select
+  .form-group textarea{
+    flex: 1;
+    padding: 5px;
+  }
+
+  .formes input{
+  text-align: center;
+  }
+
+</style>
+<body>
+  <center><H1>SAUD 423614</H1></center>
+    <center><img src="saylani2.jpg" alt=""></center>
+    <h1 style="text-align: center;">Saylani Online Academy</h1>
+    <div class="form-container">
+  <form action="./success.html" method="post">
+    <br>
+    <h1 style="text-align: center;">Student Registration Form</h1> 
+    <div class="form-group">
+   <label for="name">Name:</label>
+    <input type="text" placeholder="Name" size="40" style="height: 20px; padding-right: -100px;" required>
+  </div>
+   <div class="form-group"><label for="Father Name"> Father Name:</label>
+    <input type="text" placeholder="Father Name" size="40" style="height: 25px;" required><br>
+    </div>
+    <!-- <label for="Address"> Address:</label><br> --><br>
+   <div class="form-group"><label for="Address"> Address:</label><textarea placeholder="Address" rows="10" cols="40" required></textarea></div>
+  <div class="form-group"><label for="Gender"> Gender:</label>
+    <input type="radio" name="Gender" value="Male" required> Male
+    <input type="radio" name="Gender" value="Female" required> Female</div>
+
+    <div class="form-group"><label for="Language"> Language:</label>
+    <input type="checkbox" value="Urdu"> Urdu
+    <input type="checkbox" value="English"> English
+    <input type="checkbox" value="Phsyics"> France
+    <input type="checkbox" value="Chemistry">Chineses
+    </div>
+  
+    <div class="form-group"><label for="name">DOB:</label>
+    <input type="date" placeholder="mm/dd/yyyy" size="40" style="height: 25px;" required></div>
+    <div class="form-group">
+    <label for="name">Email Id:</label>
+    <input type="email" placeholder="Email ID" size="40" style="height: 25px;" required>
+    </div>
+  
+     <div class="form-group"><label for="name">Mobile Number:</label>
+    <input type="number" placeholder="Mobile Number" size="40" style="height: 25px;" required>
+    </div>
+<div class="form-group"> <label>City:</label>
+<select name="city">
+    <option disabled selected>select your city</option>
+    <option value="Hyderabad">HYDERABAD</option>
+    <option value="karachi"> KARACHI</option>
+    <option value="nawabshah"> NAWABSHAH</option>
+    <option value="mirpurkhas">MIRPURKHAS</option>
+</select>
+</div>
+<div class="form-group">
+<label for="Hobbies">Hobbies:</label>
+<select>
+    <option>Cricket</option>
+    <option> Football</option>
+    <option> Hockey</option>
+    <options>Tennis</option>
+</select></div>
+<div class="form-group">
+<label for="Picture">Picture Upload:</label>
+<input type="file" placeholder="choose file" name="Picture" required>
+</div>
+
+<div class="formes">
+  <label></label>
+  <input type="submit" placeholder="submit" value="submit form" style="margin-left: 200px;">
+  </form>
+</div>  
+</body>
+</html>
